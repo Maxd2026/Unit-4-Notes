@@ -95,3 +95,20 @@ function skincare() {
 // CALL the function to use it!
 skincare();
 skincare(); // can run the function again
+
+// Functions are like RECIPES:
+// - PARAMETERS are like ingredients
+// - RETURN values are like a completed meal
+
+// Example below is a recipe for creating a sandwich
+// Need some filling, bread, and sauce to do it!
+function makeSandwich(filling, bread, sauce) {
+    let sandwich = filling + " sandwich on " + bread + " with " + sauce;
+    return sandwich; // OUTPUT!!!
+}
+// Use the general recipe with specific ingredients
+// Store the resulting sandwich in a variable
+let grilledCheese = makeSandwich("cheese", "toast", "butter");
+console.log(grilledCheese);
+let caprese = makeSandwich("tomato mozz", "ciabatta", "pesto");
+console.log(caprese);
